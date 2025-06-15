@@ -1,8 +1,10 @@
 <script setup>
 import catPaw from "@/assets/cat_paw.png"
+
+const { href } = defineProps(['href'])
 </script>
 <template>
-  <v-card rounded="lg" class="quote-card" color="secondary" height="auto" width="auto">
+  <v-card rounded="lg" class="quote-card" color="secondary" height="auto" width="auto" :href="href">
     <template #prepend>
       <v-avatar :image="catPaw" size="100"></v-avatar>
     </template>

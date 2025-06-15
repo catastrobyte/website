@@ -12,7 +12,7 @@ import QuoteTemplate from "./QuoteTemplate.vue"
       </p>
     </template>
     <template #source>
-      Cat Porter Bridges
+      Cat Porter Bridges (Cat Stranding)
     </template>
   </QuoteTemplate>
 </template>
