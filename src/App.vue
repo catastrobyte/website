@@ -7,9 +7,7 @@ import Header from './components/Header.vue'
 <template>
   <v-layout class="" height="100vh">
     <v-app-bar height='130'>
-      <v-app-bar-title>
         <Header />
-      </v-app-bar-title>
     </v-app-bar>
     <v-main class="d-flex align-center justify-center">
       <RouterView />
