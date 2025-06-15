@@ -3,7 +3,7 @@
   <v-container fluid class="app-bar">
     <v-row justify="center" align-items="center" align="center">
       <v-col cols="auto">
-        <img alt="CatastroByte Logo" class="logo" src="@/assets/logo.png" />
+        <v-img alt="CatastroByte Logo" class="logo" src="@/assets/logo.png" />
       </v-col>
       <v-col cols="auto">
         <h1 class="title">CatastroByte</h1>
