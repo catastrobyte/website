@@ -50,3 +50,7 @@ h4 {
 p {
   font-size: 1.0em;
 }
+
+.v-toolbar__content > .v-toolbar-title {
+  margin-inline-start: 0px !important;
+}
