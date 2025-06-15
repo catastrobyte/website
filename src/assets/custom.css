@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #0E161A;
+  --secondary-color: #333543;
+}
+
+* {
+  background-color: var(--primary-color);
+}
+
+@font-face {
+  font-family: Workbench;
+  src: url("./fonts/workbench.ttf")
+}
+
+.title {
+  font-family: Workbench;
+  color: white;
+  line-height: 1;
+}
+.subtitle {
+  color: white;
+  line-height: 1;
+}
+
+.app-bar {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.0rem;
+}
