@@ -10,9 +10,23 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
+const catastroByteTheme = {
+  dark: false,
+  colors: {
+    primary: '#0E161A',
+    secondary: '#333543'
+  }
+}
+
 const vuetify = createVuetify({
   components,
-  directives
+  directives,
+  theme: {
+    defaultTheme: 'catastroByteTheme',
+    themes: {
+      catastroByteTheme
+    }
+  }
 })
 
 const app = createApp(App)

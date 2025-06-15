@@ -1,9 +1,9 @@
 <script setup></script>
 <template>
   <v-container fluid class="app-bar">
-    <v-row justify="center" align-items="center" align="center">
+    <v-row justify="space-evenly" align-items="center" align="center">
       <v-col cols="auto">
-        <img alt="CatastroByte Logo" class="logo" src="@/assets/logo.png" height="125" />
+        <img alt="CatastroByte Logo" class="logo" src="@/assets/logo.png" style="max-height: 125px;">
       </v-col>
       <v-col cols="auto">
         <h1 class="title">CatastroByte</h1>
