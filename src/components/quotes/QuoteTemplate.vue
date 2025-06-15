@@ -1,10 +1,10 @@
 <script setup>
-import catAvatar from "@/assets/cat_avatar.png"
+import catPaw from "@/assets/cat_paw.png"
 </script>
 <template>
   <v-card rounded="lg" class="quote-card" color="secondary" height="auto" width="auto">
     <template #prepend>
-      <v-avatar :image="catAvatar" size="120"></v-avatar>
+      <v-avatar :image="catPaw" size="100"></v-avatar>
     </template>
     <template #title>
       <i>
