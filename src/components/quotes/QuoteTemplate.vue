@@ -17,9 +17,9 @@ const { href } = defineProps(['href'])
     </template>
     <template #subtitle>
       <i>
-        <p>
+        <span style="word-break: break-word; white-space: normal;">
           - <slot name="source"></slot>
-        </p>
+        </span>
       </i>
     </template>
   </v-card>

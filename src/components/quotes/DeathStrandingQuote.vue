@@ -4,12 +4,12 @@ import QuoteTemplate from "./QuoteTemplate.vue"
 <template>
   <QuoteTemplate>
     <template #quote>
-      <p>
+      <h4>
         Once, there was a cat, a meow which gave rise to code as we know it.
-      </p>
-      <p>
+      </h4>
+      <h4>
         And then, came the next cat. A cat that will be our last.
-      </p>
+      </h4>
     </template>
     <template #source>
       Cat Porter Bridges (Cat Stranding)
