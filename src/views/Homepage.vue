@@ -49,7 +49,7 @@ import catExplosion from "../assets/cat_explosion.png"
             <v-img :src="catSpaceship" width="125" />
           </v-card-item>
           <v-card-item class="text-center pt-0">
-            <p>Ready for launch!</p>
+            <p>Launch time!</p>
             <p><i>(spacecats?!)</i></p>
           </v-card-item>
         </v-card>
