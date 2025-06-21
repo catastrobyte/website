@@ -3,9 +3,18 @@ import Github from "../components/contacts/Github.vue"
 </script>
 <template>
   <v-container fluid>
-    <v-row justify="center" align="center" align-items="center">
+    <v-row>
       <v-col cols="auto">
-        <Github />
+        <h2>Contacts</h2>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="auto">
+        <v-list bg-color="transparent">
+          <v-list-item>
+            <Github />
+          </v-list-item>
+        </v-list>
       </v-col>
     </v-row>
   </v-container>

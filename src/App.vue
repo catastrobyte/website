@@ -25,7 +25,7 @@ const pickBottomNavigationButtonColor = (routeName) => {
     <v-main class="main">
       <RouterView />
     </v-main>
-    <v-footer app color="transparent">
+    <v-footer app color="primary">
       <v-bottom-navigation rounded="pill" bg-color="secondary" style="width: 90vw; height: 6vh; margin: 0 auto; left: calc(10vw /
       2); bottom: 10px;" grow>
         <v-btn :to="{ name: 'projects' }">
