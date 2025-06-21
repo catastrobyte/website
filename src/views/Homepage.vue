@@ -76,7 +76,7 @@ import catNeon from "../assets/cat_neon.png"
             <v-img :src="catNeon" cover width="128" />
           </v-card-item>
           <v-card-item>
-            <p>If life events are unpredictable it's because someone is testing the code in
+            <p>If life events are unpredictable it's because someone is testing code in
               production.</p>
           </v-card-item>
           <v-card-item>
