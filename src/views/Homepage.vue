@@ -3,7 +3,7 @@ import catPaw from "../assets/cat_paw.png"
 import catKeyboard from "../assets/cat_keyboard.png"
 import catSpaceship from "../assets/cat_spaceship.png"
 import catExplosion from "../assets/cat_explosion.png"
-import blackHole from "../assets/black_hole.png"
+import catNeon from "../assets/cat_neon.png"
 
 </script>
 <template>
@@ -73,11 +73,14 @@ import blackHole from "../assets/black_hole.png"
             Hey, folks!
           </v-card-title>
           <v-card-item class="d-flex justify-center">
-            <v-img :src="blackHole" cover width="128" />
+            <v-img :src="catNeon" cover width="128" />
           </v-card-item>
           <v-card-item>
-            <p>Probably whoever created life never wrote tests and always tested in production.</p>
-            <p>If this is true, I am a creator too! 😼</p>
+            <p>If life events are unpredictable it's because someone is testing the code in
+              production.</p>
+          </v-card-item>
+          <v-card-item>
+            <p>If whoever inventend life thought it was right this way, who am I to do otherwise? 😼</p>
           </v-card-item>
         </v-card>
       </v-col>
