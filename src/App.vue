@@ -1,9 +1,16 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView, useRoute } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
-</script>
 
+const route = useRoute()
+
+const pickBottomNavigationButtonColor = (routeName) => {
+  if (route.name === routeName) return "deep-purple-lighten-3"
+  else return "primary"
+}
+
+</script>
 <template>
   <v-app>
     <v-app-bar height='150' color="primary">
@@ -18,5 +25,17 @@ import Header from './components/Header.vue'
     <v-main class="main">
       <RouterView />
     </v-main>
+    <v-bottom-navigation rounded="pill" absolute bg-color="secondary" style="width: 90vw; height: 6vh; margin: 0 auto; left: calc(10vw /
+      2); bottom: 10px;" grow>
+      <v-btn :to="{ name: 'projects' }">
+        <v-icon icon="mdi-bug" size="32" :color="pickBottomNavigationButtonColor('projects')" />
+      </v-btn>
+      <v-btn :to="{ name: 'home' }">
+        <v-icon icon="mdi-cat" size="32" :color="pickBottomNavigationButtonColor('home')" />
+      </v-btn>
+      <v-btn :to="{ name: 'contacts' }">
+        <v-icon icon="mdi-space-station" size="32" :color="pickBottomNavigationButtonColor('contacts')" />
+      </v-btn>
+    </v-bottom-navigation>
   </v-app>
 </template>
