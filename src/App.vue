@@ -25,17 +25,19 @@ const pickBottomNavigationButtonColor = (routeName) => {
     <v-main class="main">
       <RouterView />
     </v-main>
-    <v-bottom-navigation rounded="pill" absolute bg-color="secondary" style="width: 90vw; height: 6vh; margin: 0 auto; left: calc(10vw /
+    <v-footer app color="transparent">
+      <v-bottom-navigation rounded="pill" bg-color="secondary" style="width: 90vw; height: 6vh; margin: 0 auto; left: calc(10vw /
       2); bottom: 10px;" grow>
-      <v-btn :to="{ name: 'projects' }">
-        <v-icon icon="mdi-bug" size="32" :color="pickBottomNavigationButtonColor('projects')" />
-      </v-btn>
-      <v-btn :to="{ name: 'home' }">
-        <v-icon icon="mdi-cat" size="32" :color="pickBottomNavigationButtonColor('home')" />
-      </v-btn>
-      <v-btn :to="{ name: 'contacts' }">
-        <v-icon icon="mdi-space-station" size="32" :color="pickBottomNavigationButtonColor('contacts')" />
-      </v-btn>
-    </v-bottom-navigation>
+        <v-btn :to="{ name: 'projects' }">
+          <v-icon icon="mdi-bug" size="32" :color="pickBottomNavigationButtonColor('projects')" />
+        </v-btn>
+        <v-btn :to="{ name: 'home' }">
+          <v-icon icon="mdi-cat" size="32" :color="pickBottomNavigationButtonColor('home')" />
+        </v-btn>
+        <v-btn :to="{ name: 'contacts' }">
+          <v-icon icon="mdi-space-station" size="32" :color="pickBottomNavigationButtonColor('contacts')" />
+        </v-btn>
+      </v-bottom-navigation>
+    </v-footer>
   </v-app>
 </template>
