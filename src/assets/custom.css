@@ -3,7 +3,7 @@
   --secondary-color: #333543;
 }
 
-.app {
+body {
   background-color: var(--primary-color);
 }
 
