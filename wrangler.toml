@@ -1,4 +1,6 @@
 name = "catastrobyte"
 compatibility_date = "2025-04-03"
 main = "./src/index.js"
+
+[assets]
 not_found_handling = "single_page_application"
