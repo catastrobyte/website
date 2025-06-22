@@ -3,6 +3,10 @@
   --secondary-color: #333543;
 }
 
+.app {
+  background-color: var(--primary-color);
+}
+
 .main {
   background-color: var(--primary-color);
   color: white;
