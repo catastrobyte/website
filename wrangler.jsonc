@@ -1,0 +1,6 @@
+{
+  "name": "catastrobyte",
+  "compatibility_date": "2025-04-03",
+  "main": "./src/index.js",
+  "not_found_handling": "single_page_application"
+}

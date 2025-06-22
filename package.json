@@ -19,6 +19,7 @@
     "vuetify": "^3.8.9"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.7.4",
     "@eslint/js": "^9.22.0",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vitejs/plugin-vue-jsx": "^4.1.2",
@@ -31,6 +32,7 @@
     "oxlint": "^0.16.0",
     "prettier": "3.5.3",
     "vite": "^6.2.4",
-    "vite-plugin-vue-devtools": "^7.7.2"
+    "vite-plugin-vue-devtools": "^7.7.2",
+    "wrangler": "^4.20.5"
   }
 }
