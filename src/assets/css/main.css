@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+@import '@catppuccin/tailwindcss/macchiato.css';
+@plugin '@iconify/tailwind4';
+
+@theme {
+  --color-primary: #0f171b;
+  --color-secondary: #8b948c;
+  --color-deep-space: #35364a;
+  --color-deep-purple: #3f354a;
+  --color-light: #30333d;
+  --color-dark: #292d3a;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
